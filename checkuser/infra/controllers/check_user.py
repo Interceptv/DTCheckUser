@@ -21,7 +21,7 @@ class CheckUserController(Controller):
             'USER_ID':data.username,
             'DEVICE':'BCC35DC71DE5AE7BD46F8F421A7C414E',
             'is_active':'false',
-            'expiration_date': '2023-02-12-',
+            'expiration_date': date,
             'expiry': '19 dias',
             },
         )
